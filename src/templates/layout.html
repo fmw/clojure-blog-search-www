@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <title>Clojure Blog Search</title> 
+    <link rel="stylesheet" href="/style.css" type="text/css" /> 
+    <!--[if lt IE 9]>
+        <script
+           src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head> 
+  <body> 
+
+    <div id="wrapper">
+
+      <header>
+
+      <div id="header-top-bar">
+        <div id="logo-container">
+          <h1 id="logo">
+            <a href="/">Clojure Blog Search</a>
+          </h1>
+        </div>
+
+      </div>
+
+      </header>
+
+      <div id="content-bar">
+
+        <div id="search-form-container">
+          <form method="get" action="/">
+            <fieldset id="search-form">
+              <label for="search-field">Search</label>
+              <input id="search-field" name="q" type="text" />
+              <input type="submit" id="search-button" value="Search"/>
+            </fieldset>
+          </form>
+        </div>
+
+        <div id="content">
+           <p>
+            This search engine is not particularly useful. The index
+            isn't updated at all and the results are far from
+            precise. This site is not meant to be useful as a search
+            engine, however. The goal is to provide simple and concise
+            example code for
+            <a href="https://github.com/fmw/alida">Alida</a>, which is
+            a search library written in Clojure. You can find the
+            source code for this website at
+            <a href="https://github.com/fmw/clojure-blog-search-www">GitHub</a>.
+        </div>
+
+      </div>
+
+      <footer>
+        Powered by <a href="http://www.vixu.com">Vixu.com</a>.
+      </footer>
+
+    </div>
+  </body> 
+</html>

@@ -1,0 +1,150 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000;
+    background-color: #e8e8e8;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+a, a:visited {
+    text-decoration: underline;
+    color: #3f3f3f;
+}
+
+a:hover {
+    color: #969696;
+}
+
+strong {
+    font-weight: bold;
+}
+
+header {
+    margin-bottom: 7px;
+    color: #fff;
+    font-size: 18px;
+    clear: both;
+}
+
+#header-top-bar, #header-menu-bar {
+    padding-left: 20px;
+}
+
+#header-top-bar {
+    clear: both;
+    background-color: #3f3f3f;
+    border-radius: 0 0 15px 15px;
+}
+
+#logo-container {
+    padding: 18px 0 18px 0;
+}
+
+#logo a {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+#logo span {
+    letter-spacing: -3px;
+    color: #dfdfdf;
+}
+
+#search-form {
+    margin: 18px 0 18px 0;
+    border: 0;
+}
+
+#search-field {
+    -webkit-appearance: textfield;
+    width: 220px;
+    height: 23px;
+    padding: 3px 40px 3px 15px;
+    margin: 0 0 0 7px;
+    border: 1px solid black;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -o-border-radius: 24px;
+    border-radius: 24px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+#search-button {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid;
+}
+
+#content-bar {
+    background-color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 20px;
+    clear: both;
+    overflow: auto;
+}
+
+#content {
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+#content ul {
+    padding-left: 20px;
+}
+
+#content p {
+    margin-bottom: 16px;
+}
+
+#page-title {
+    font-size: 22px;
+    margin: 15px 0 15px 0;
+}
+
+#content-bar h3, #content-bar h4, #content-bar h5 {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+#main-bar {
+    font-size: 16px;
+    clear: both;
+    padding: 30px 0 50px 0;
+}
+
+#search-results {
+    margin: 30px 0 30px 25px;
+}
+
+#search-results-navigate {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#search-results-navigate li {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    text-align: center;
+}
