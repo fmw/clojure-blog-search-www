@@ -19,6 +19,8 @@ That's it. These commands should start a local server at
 http://localhost:3000 with the web application. You do need Git, a
 working Java environment and a copy of `Leiningen`_, however.
 
+You can also see a hosted version of this code in action at: http://clojure-blog-search.vixu.com/.
+
 Questions?
 ----------
 
